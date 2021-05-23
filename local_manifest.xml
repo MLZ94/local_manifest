@@ -18,7 +18,8 @@
 
 
 
-
+        <remove-project name="platform/packages/apps/Bluetooth" />
+        <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nezuko" clone-depth="1" />
         <project path="vendor/gapps" name="vendor_gapps" remote="rohie-gitlab" revision="11" clone-depth="1" />
  	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="p404" clone-depth="1" />
 	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="he" revision="eleven" clone-depth="1" />

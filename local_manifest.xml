@@ -7,7 +7,7 @@
 		fetch="https://github.com/henricaodopao" />
         <remote  name="org"
                 fetch="https://github.com/ASUS-ZenFone-5-Development" />
- 	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="nezuko" clone-depth="1" />
+ 	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="pe" clone-depth="1" />
 	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="he" revision="eleven" clone-depth="1" />
-	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="org" revision="mlz-audio" clone-depth="1" />
+	<project path="vendor/asus/X00QD" name="vendor_asus_X00QD" remote="he" revision="11" clone-depth="1" />
 </manifest>

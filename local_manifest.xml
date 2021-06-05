@@ -8,6 +8,6 @@
         <remote  name="org"
                 fetch="https://github.com/ASUS-ZenFone-5-Development" />
  	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="pe" clone-depth="1" />
-	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="he" revision="backup" clone-depth="1" />
+	<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="org" revision="CyberIce" clone-depth="1" />
 	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="mlz" revision="pe" clone-depth="1" />
 </manifest>

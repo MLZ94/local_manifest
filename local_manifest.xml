@@ -21,7 +21,7 @@
  <!--       <remove-project name="platform/packages/apps/Bluetooth" />
         <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nezuko" clone-depth="1" /> -->
  	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="p404" clone-depth="1" />
-	<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="org" revision="CyberIce" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-coldplay" remote="mlz" revision="eleven" clone-depth="1" />
 	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="mlz" revision="caf" clone-depth="1" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel"  clone-depth="1" />
 </manifest>

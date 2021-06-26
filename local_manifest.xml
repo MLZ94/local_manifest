@@ -15,7 +15,8 @@
         <remote name="nezuko"
                 fetch="https://github.com/NezukoOS"
                 revision="eleven" />
-
+        <remote name="styx"
+                fetch="https://github.com/StyxProject" />
 
 
  <!--       <remove-project name="platform/packages/apps/Bluetooth" />
@@ -24,5 +25,7 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-coldplay" remote="mlz" revision="eleven" clone-depth="1" />
 	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="mlz" revision="caf" clone-depth="1" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel"  clone-depth="1" />
+        <remove-project name="android_vendor_codeaurora_telephony" />
+        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="styx"  clone-depth="1" />
 </manifest>
 

@@ -10,7 +10,7 @@
         <remote  name="gcc"
                 fetch="https://github.com/mvaisakh" />
  	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="lineage-18.O" clone-depth="1" />
-	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660-coldplay" remote="mlz" revision="eleven" clone-depth="1" />
+	<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="org" revision="eleven" clone-depth="1" />
 	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="mlz" revision="no-audio" clone-depth="1" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" clone-depth="1" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="gcc" revision="gcc-master" clone-depth="1" />

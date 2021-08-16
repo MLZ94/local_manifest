@@ -7,5 +7,5 @@
                 fetch="https://github.com" />
  	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="mlz" revision="radiant" clone-depth="1" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="mlz" revision="eleven" clone-depth="1" />
-        <project path="kernel/xiaomi/vayu" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="gh" revision="base-stg" clone-depth="1" />
+        <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu" remote="gh" revision="base-stg" clone-depth="1" />
 </manifest>

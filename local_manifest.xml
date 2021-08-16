@@ -3,11 +3,10 @@
 
 	<remote  name="mlz"
 		fetch="https://github.com/MLZ94" />
- 	<remote name="he"
-		fetch="https://github.com/henricaodopao" />
-        <remote  name="org"
-                fetch="https://github.com/ASUS-ZenFone-5-Development" />
- 	<project path="device/asus/X00QD" name="android_device_asus_X00QD" remote="mlz" revision="nezuko" clone-depth="1" />
-	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="he" revision="eleven" clone-depth="1" />
-	<project path="vendor/asus/X00QD" name="proprietary_vendor_asus" remote="org" revision="mlz-audio" clone-depth="1" />
+        <remote  name="gh"
+                fetch="https://github.com" />
+ 	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="mlz" revision="radiant" clone-depth="1" />
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="mlz" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/vayu" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="gh" revision="base-stg" clone-depth="1" />
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-18.1" />
 </manifest>

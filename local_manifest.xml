@@ -5,8 +5,10 @@
 		fetch="https://github.com/MLZ94" />
         <remote  name="gh"
                 fetch="https://github.com" />
+        <remote  name="kdragon"
+                fetch="https://github.com/kdrag0n" />
  	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="mlz" revision="radiant" clone-depth="1" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="mlz" revision="eleven" clone-depth="1" />
-        <project path="kernel/xiaomi/vayu" name="ArrowOS-Devices/android_kernel_xiaomi_vayu" remote="gh" revision="base-stg" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="gh" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="mlz" revision="arrow-11.0" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
 </manifest>
